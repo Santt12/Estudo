@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragrafos e quebras de linhas</title>
+</head>
+<body>
+    <div id="Basico Primeira Parte">
+        <h1>Primeira Parte</h1>
+            <hr> <!--Traço linha horizontal-->
+                <p>^</p>
+                <p>Linha horizontal usando hr</p>
+            <hr>
+    </div>
+    
+    <div id="Basico Segunda Parte">
+        <h1>Segunda Parte</h1>
+            <p>Tag <b>"B"</b>deixa em negrito</p>
+            <p>Tag "i" deixa em <i>italico</i></p>
+            <p>Tag "em" deixam o texto com <em>enfase</em></p>
+            <mark style="background-color: burlywood;">Marcado</mark>
+            <p><big>Grande</big> <small>pequeno</small></p>
+            <p>H<sub>2</sub>O</p></p>
+            <hr>
+    </div>
+
+    <div id="Basico Terceira Parte">
+         <pre>
+          <code>
+num = int(input(Digite um numero))
+if num % 2 == 0:
+    print(f'O numero {num} é par)
+else
+    print(f'O numero {num} é Impar)
+print('Fim do PRograma')
+          </code>
+        </pre>
+        <p>Como diria o pai de um amigo: <q>O computador é um burro muito rapido</q></p>
+        <hr>
+            <h2>Listas</h2>
+            <p>use a tag li exemplo</p>
+            <p><li>Acordar</li>
+      <li>LIgar para João</li>
+      <li>Tomar Café</li>
+      <li>Escovar os Dentes</li>
+      <li>Ir para faculdade</li>
+      <li>Almoçar</li>
+      <li>Ir para o trabalho</li>
+      <li>Voltar para casa</li>
+      <li>Jantar</li>
+      <li>Dormir</li></p>
+      <h2>Listas não Ordenada</h2>
+    <ul type="square">
+      <!--Opções de type="Disc"/"Circle"/ "Square"-->
+      <li>Pão</li>
+      <li>Leite</li>
+      <li>Tomate</li>
+      <li>Tomate</li>
+      <li>Manteiga</li>
+      <li>Arroz</li>
+      <li>Feijão</li>
+    </ul>
+     <!--A TAg <ol> serve para criar Listas Ordenadas-->
+    <!--<li> Serve para botar o itens na lista (Não é nescessario usar o </li>)-->
+    <h2>Juntando Listas vers 1.0</h2>
+    <ol>
+      <li>Exemplo1</li>
+      <ol type="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ol>
+      <li>Exemplo2</li>
+      <ol type="a" start="5">
+        <!--A tag start se inicia com numero independente do tipo-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ol>
+    </ol>
+    <h2>Meus jogos Favoritos</h2>
+    <ol>
+      <li>NES</li>
+      <ul type="disc">
+        <li>Exemplo</li>
+        <ul type="circle">
+          <li>Item1</li>
+          <li>Item2</li>
+        </ul>
+        <li>Exemplo</li>
+      </ul>
+      <li>SNES</li>
+      <ul type="disc">
+        <li>Exemplo</li>
+        <li>Exemplo</li>
+      </ul>
+      <li>PlayStation</li>
+      <ul type="disc">
+        <li>Exemplo</li>
+        <li>Exemplo</li>
+      </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+      <dt>HTMl</dt>
+      <dd>Linguagem de Marcação para criação de conteudo de um site</dd>
+      <dt>CSS</dt>
+      <dd>Linguagem de Marcação para criação do design de um site</dd>
+      <dt>JavaScript</dt>
+      <dd>
+        LInguagem de Programação para criação de interatividade de um site
+      </dd>
+    </dl>
+    </div>
+</body>
+</html>
